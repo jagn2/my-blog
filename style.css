@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&family=Redressed&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+  border: solid red;
+  margin: 0 auto;
+  width: 1200px; 
+  height: 800px;
+}
+
+header{ /*이 부분은 굳이 존재할 필요가 있을까?*/
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}
+
+#logo{
+  float: left;
+  width: 250px;
+  height: 100px;
+  line-height: 100px; /*세로로 가운데 정렬하는 법!*/
+  background-color: indigo;
+}
+
+#logo h1 {
+  font-family: 'Redressed', cursive;
+  text-align: center;
+}
+
+nav{
+  float: right;
+  text-decoration: none;
+  width: 900px;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+#slideShow {
+  clear: both;
+  width: 100%;
+  height: 300px;
+  background-color: bisque;
+}
+
+#contents { /*이 부분은 굳이 존재할 필요가 있을까?*/
+
+}
+
+#category { /*카테고리 플로팅 피하는 법*/
+  float: left;
+  width: 400px;
+  height: 300px;
+  background-color: plum;
+}
+
+#post-preview {
+  float: right;
+  width: 800px;
+  height: 300px;
+  background-color: aqua;
+}
+
+footer {
+  clear: both;
+  width: 100%;
+  height: 100px;
+  background-color: gray;
+}
